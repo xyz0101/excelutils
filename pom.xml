@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jenkin.excel</groupId>
+    <artifactId>excel-utils</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+
+    <!--进行数据解析Fastjson会自动处理对象中的泛型，将其解析成原来定义好的对象， -->
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.1.41</version>
+    </dependency>
+    <!-- 引入poi，解析workbook视图 -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>3.8</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>3.8</version>
+    </dependency>
+
+    </dependencies>
+
+</project>
